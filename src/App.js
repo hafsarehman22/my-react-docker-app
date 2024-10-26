@@ -6,9 +6,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <div>
+          Hello, Hafsa Rehman!
+        </div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        {/* Optionally remove the Learn React link or replace it with something else */}
+        {/* 
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +22,7 @@ function App() {
         >
           Learn React
         </a>
+        */}
       </header>
     </div>
   );
